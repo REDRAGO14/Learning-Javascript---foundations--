@@ -12,4 +12,15 @@ for( let i = 0; i < teaCollection.length; i++){
 console.log(selectedTeas);
  */
 
+//CHALLENGE NUMBER 2
+
+let cities = ["addis abeba", "london", "lalibela", "paris", "milan"]
+let visitedCities = []
+
+for(let i = 0; i < cities.length; i++){
+    if(cities[i] == "lalibela"){
+        continue;
+    }
+    visitedCities.push[cities[i]]
+}
 
