@@ -26,7 +26,7 @@ for(let i = 0; i < cities.length; i++){
 
 //CHALLENGE NUMBER 3
 
-let numbers = [1,2,3,4,5]
+/* let numbers = [1,2,3,4,5]
 let smallNumbers = []
 
 for(const num of numbers){
@@ -34,4 +34,18 @@ for(const num of numbers){
         break;
     }
     smallNumbers.push(num)
+}
+*/
+
+
+//CHALLENGE NUMBER 4
+
+let teas = ["green tea", "black tea", "oolang tea", "chai"]
+let preferedTeas = []
+
+for(const tea of teas){
+    if(tea == "chai"){
+        continue;
+    }
+    preferedTeas.push(tea)
 }
