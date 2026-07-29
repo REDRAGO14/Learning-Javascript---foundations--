@@ -40,7 +40,7 @@ for(const num of numbers){
 
 //CHALLENGE NUMBER 4
 
-let teas = ["green tea", "black tea", "oolang tea", "chai"]
+/* let teas = ["green tea", "black tea", "oolang tea", "chai"]
 let preferedTeas = []
 
 for(const tea of teas){
@@ -48,4 +48,17 @@ for(const tea of teas){
         continue;
     }
     preferedTeas.push(tea)
-}
+} */
+
+//CHALLENGE NUMBER 8
+
+let teas = ["green tea", "black tea", "oolang tea", "chai"]
+let preferedTeas = []
+
+teas.forEach((tea) => {
+    if(tea != "black tea"){
+        preferedTeas.push(tea)
+    }
+})
+
+console.log(preferedTeas);
