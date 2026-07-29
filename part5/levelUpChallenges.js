@@ -52,7 +52,7 @@ for(const tea of teas){
 
 //CHALLENGE NUMBER 8
 
-let teas = ["green tea", "black tea", "oolang tea", "chai"]
+/* let teas = ["green tea", "black tea", "oolang tea", "chai"]
 let preferedTeas = []
 
 teas.forEach((tea) => {
@@ -61,4 +61,39 @@ teas.forEach((tea) => {
     }
 })
 
-console.log(preferedTeas);
+console.log(preferedTeas); */
+
+
+//CHAllENGE NUMBER 9
+
+/* let numbers = [2,5,7,9]
+let doubledNum = []
+
+for(let i = 0; i < numbers.length; i++){
+    if(numbers[i] == 7){
+        continue;
+    }
+    doubledNum.push(numbers[i]*2)
+} */
+
+
+//CHALLENGE NUMBER 10
+
+/* let teas = ["green tea", "black tea", "oolang tea", "chai"]
+let longTea = []
+
+for(const tea of teas){
+    let count = 0
+    for(const l of tea){
+        count++
+    }
+    console.log(count);
+    
+    if(count < 5){
+        longTea.push(tea)
+        
+    }
+}
+console.log(longTea);
+ */
+
