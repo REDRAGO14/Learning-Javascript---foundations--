@@ -24,4 +24,11 @@ const calculateTotal = (price, quantity) => {
 
 let totalCost = calculateTotal(250, 7)
 
-
+//challenge number 4
+function makeTea(teaType){
+    return `making ${teaType}`
+}
+function processTea(maketea){
+    return maketea
+}
+console.log( processTea(makeTea("chai")));
