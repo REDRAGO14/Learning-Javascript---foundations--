@@ -89,11 +89,18 @@ for(const tea of teas){
     }
     console.log(count);
     
-    if(count < 5){
+    if(count > 5){
         longTea.push(tea)
         
     }
 }
 console.log(longTea);
  */
-
+let teas = ["green tea", "black tea", "oolang tea", "chai"]
+let longTeas = []
+for(const tea of teas){
+    if(tea.length > 5){
+        longTeas.push(tea)
+    }
+    break
+}
