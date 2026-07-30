@@ -15,3 +15,13 @@ let teaOrder = makeTea("green Tea")
  }
 
  orderTea("chai")
+
+ //challenge number 3
+
+const calculateTotal = (price, quantity) => {
+    return price * quantity
+}
+
+let totalCost = calculateTotal(250, 7)
+
+
